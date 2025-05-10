@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pycrypts"
+version = "1.0.0"
+description = "A pygame adventure"
+readme = "README.md"
+requires-python = ">=3.5"
+license = { text = "AGPL-3.0-only" }
+authors = [
+  { name = "Дима Ш.", email = "dima.o.sh@proton.me" },
+  { name = "rolyPolyVole", email = "yezhanting@gmail.com" },
+]
+
+dependencies = [
+  "pygame",
+]
+
+[project.scripts]
+pycrypts = "pycrypts.__main__:main"
+
+[tool.setuptools]
+packages = { find = { include = ["pycrypts*"] } }
+include-package-data = true
+
+[tool.setuptools.package-data]
+"pycrypts" = ["assets/**/*"]

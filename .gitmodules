@@ -1,0 +1,6 @@
+[submodule "assets/fluentui-emoji"]
+	path = assets/fluentui-emoji
+	url = git@github.com:sh-dima/fluentui-emoji.git
+[submodule "assets/twemoji"]
+	path = assets/twemoji
+	url = git@github.com:twitter/twemoji.git
