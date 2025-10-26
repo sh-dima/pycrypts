@@ -1,0 +1,8 @@
+# Nix build result
+result
+
+# Python cache
+__pycache__/
+
+# Virtual environment
+.venv/
